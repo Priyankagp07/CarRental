@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CAR RENTAL SYSTEM</title>
+    <link rel="stylesheet" href="./styles/home_page.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!-- script start -->
+    <script type = "text/JavaScript">
+      function Hello() {
+         alert("PLEASE SIGNIN FIRST😊");
+      }
+   </script>
+   <!-- script end -->
+  </head>
+
+  <body>
+    <!-- Navbar Start -->
+    <div class="navbar">
+      <div class="brand">
+        <span>Car Rental System </span>
+      </div>
+      <div class="nav-links">
+        <div>
+          <a href="./signup.html">Signup</a>
+        </div>
+        <div>
+          <a href="./login.html">Login</a>
+        </div>
+      </div>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Search Panel Start -->
+    <div class="search-panel">
+      <div class="start_trip">
+        <label for="">START TRIP</label>
+        <select name="start_trip" id="">
+          <option value="jalandhar">Jalandhar</option>
+          <option value="phagwara">Phagwara</option>
+
+        </select>
+      </div>
+      <div class="end_trip">
+        <label for="">DESTINATION</label>
+        <select name="end_trip" id="">
+          <option value="manali">Manali</option>
+          <option value="amritsar">Amritsar</option>
+          <option value="delhi">Delhi</option>
+          <option value="agra">Agra</option>
+
+        </select>
+      </div>
+      <div class="date_trip">
+        <label for="">DATE</label>
+        <input type="date" name="date_trip" id="" />
+      </div>
+    </div>
+    <!-- Search Panel End -->
+
+    <!-- search panal 1 start -->
+    <div class="search-panel">
+      <div class="start_trip">
+        <label for="">PHONE NUMBER</label>
+        <input type="text" name="start_trip" id="">
+      </div>
+      <div class="end_trip">
+        <label for="">VEHICLE MODEL</label>
+        <select name="end_trip" id="">
+          <option value="audi">Audi A3</option>
+          <option value="bmw">BMW</option>
+          <option value="lambergini">Lambergini</option>
+          <option value="fortuner">Fortuner</option>
+          <option value="maruthi">Swift desire</option>
+
+        </select>
+      </div>
+      <div class="date_trip">
+        <label for="">NO OF PEOPLE</label>
+        <input type="number" name="date_trip" id="" min="2" max="9"/>
+      </div>
+    </div>
+    <!-- Search Panel 1 End -->
+     
+    <div class="ok">
+      <button type = "submit" onclick = "Hello();" name = "ok" value = "SUBMIT" />SUBMIT </submit> 
+    </div>
+
+    <!-- destination palces -->
+    <div><br/><h2>MOST VISITED DESTINATIONS......</h2></div>
+    <div class="dest-places">
+      <div class="dest-place">
+        <img src="./assets/manali.jpg" alt="#" />
+        <div>
+          <span class="dest-name">Manali</span>
+          <span class="dest-price">Rs 3800/-</span>
+        </div>
+      </div>
+      <div class="dest-place">
+        <img src="./assets/Amritsar.jpg" alt="#" />
+        <div>
+          <span class="dest-name">Amritsar</span>
+          <span class="dest-price">Rs 1050/-</span>
+        </div>
+      </div>
+      <div class="dest-place">
+        <img src="./assets/delhi.jpg" alt="#" />
+        <div>
+          <span class="dest-name">Delhi</span>
+          <span class="dest-price">Rs 4000/-</span>
+        </div>
+      </div>
+      <div class="dest-place">
+        <img src="./assets/tag.jpeg" alt="#" />
+        <div>
+          <span class="dest-name">Taj Mahal</span>
+          <span class="dest-price">Rs 4555/-</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

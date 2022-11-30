@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+}
+
+.root {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-root {
+  background-color: rgba(30, 162, 167, 0.836);
+  padding: 50px;
+  margin: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+  height: 36%;
+  width: 400px;
+  -webkit-box-shadow: 2px 2px 12px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 2px 12px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 12px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 4px;
+}
+
+.form-header {
+    color: white;
+    background-color: #3a3f46;
+    height: 90px;
+    margin: -50px -50px 0 -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200%;
+    border-radius: 4px 4px 0 0;
+}
+
+.form-root div {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-root div label {
+  margin-bottom: 10px;
+  color: rgb(49, 49, 49);
+}
+
+.form-root div input {
+  height: 40px;
+  padding: 0 10px 0 10px;
+  border-radius: 6px;
+  border: 1px solid grey;
+}
+
+.btn-div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -20px;
+}
+
+.btn-div button {
+  height: 36px;
+  width: 90px;
+  background-color: rgb(2, 15, 94);
+  color: white;
+  border: 0;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+}

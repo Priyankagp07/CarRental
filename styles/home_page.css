@@ -1,0 +1,134 @@
+body {
+  background-image: url("./../assets/bbt.jpg");
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  display: flex;
+  direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 106, 6, 0.911);
+  height: 50px;
+  padding-left: 6%;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+}
+
+.brand {
+  font-size: 170%;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20%;
+}
+
+.nav-links div a {
+  font-size: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Search Panel */
+
+.search-panel {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-around;
+  background-color: rgba(7, 7, 1, 0.507);
+  padding: 20px;
+}
+
+.search-panel div {
+  background-color: rgba(238, 17, 17, 0.87);
+  padding: 12px;
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+}
+
+.search-panel div label {
+  color: white;
+}
+
+.search-panel div select {
+  height: 25px;
+  width: 60%;
+  border-radius: 4px;
+}
+
+.search-panel div input {
+  height: 25px;
+  width: 60%;
+  border-radius: 4px;
+  border: 2px solid grey;
+}
+
+.ok {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: -20px;
+}
+
+.ok button {
+  height: 36px;
+  width: 90px;
+  margin-top: 20px;
+  background-color: rgba(238, 17, 17, 0.87);
+  color: white;
+  border: whitesmoke:10px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* destination places */
+
+.dest-places {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.dest-place {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(248, 103, 103);
+  margin-top: 30px;
+  -webkit-box-shadow: 2px 2px 12px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 2px 12px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 12px 0px rgba(0, 0, 0, 0.75);
+}
+
+.dest-places div div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 16px;
+}
+
+.dest-places div img {
+  width: 300px;
+  height: 66%;
+}
+
+.dest-name {
+  font-size: 200%;
+}
